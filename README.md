@@ -13,10 +13,10 @@ OR
 $ lacework sca dir .
 ```
   
-###Creating secrets
+### Creating secrets
 Before attempting to run this action, you should add three secrets LW_ACCOUNT_NAME, LW_API_KEY and LW_API_SECRET to your GitHub repository (or, better yet, your GitHub organization so they can be shared accross all your repositories). The value for these secrets can be obtained by following the instructions here to create an API key and then download it.
   
-###On push
+### On push
 To run an analysis on pushes that logs alerts, create a file called .github/workflows/code-analysis-push.yml with this content:
   
 ```yaml
