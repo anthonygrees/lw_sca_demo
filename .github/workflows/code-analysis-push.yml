@@ -14,7 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Analyze
-        uses: lacework-dev/code-analysis-action@v0.1
+        uses: lacework-dev/code-analysis-action@v1
         with:
           target: push
           tools: sca # Comma-separated list of tool(s) to use for scanning. Current options are sca and sast.
