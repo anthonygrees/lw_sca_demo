@@ -1,0 +1,22 @@
+on: [push]
+
+env:
+  LW_ACCOUNT_NAME: ${{ secrets.LW_ACCOUNT }}
+  LW_API_KEY: ${{ secrets.LW_API_KEY }}
+  LW_API_SECRET: ${{ secrets.LW_API_SECRET }}
+
+name: Lacework Code Analysis (Push)
+jobs:
+  run-analysis:
+    runs-on: ubuntu-22.04
+    name: Run analysis
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Analyze
+        uses: lacework-dev/code-analysis-action@v0.1
+        with:
+          target: push
+          tools: sca # Comma-separated list of tool(s) to use for scanning. Current options are sca and sast.
+          # If using the SAST tool, uncomment the line below and point it to a built JAR for your project
+          # jar: target
