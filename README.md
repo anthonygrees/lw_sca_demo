@@ -1,6 +1,8 @@
 # lw_sca_java.
   
-This demo repo runs a Static Composition Analysis SCA to identify Vulnerabilities in a Java Application.  
+This demo repo runs a Static Composition Analysis SCA via a GitHub Actions pipeline to identify Vulnerabilities in a Java Application.  
+  
+As well as SCA & SAST, Lacework can also scan Containers for security vulnerabilities in a GitHub Actions pipeline. An example this can be found here - https://github.com/anthonygrees/lw_container_scanner_demo    
   
 ### Manual Commands
 To run manually, use the following commands.  
