@@ -1,4 +1,4 @@
-# lw_sca_java.
+# lw_sca_java
   
 This demo repo runs a Static Composition Analysis SCA via a GitHub Actions pipeline to identify Vulnerabilities in a Java Application.  
   
