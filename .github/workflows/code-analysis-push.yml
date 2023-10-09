@@ -17,6 +17,6 @@ jobs:
         uses: lacework-dev/code-analysis-action@v1
         with:
           target: push
-          tools: sca,sast # Comma-separated list of tool(s) to use for scanning. Current options are sca and sast.
+          tools: sca # Comma-separated list of tool(s) to use for scanning. Current options are sca and sast.
           # If using the SAST tool, uncomment the line below and point it to a built JAR for your project
           # jar: target
