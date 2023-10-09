@@ -1,9 +1,5 @@
 
 /* *****Tic- Tac- Toe- Rules****
- *  http://vikeshkhanna.webfactional.com/ultimate/
- * https://www.thespruce.com/tic-tac-toe-game-rules-412170
- * This is an AWESOME!! game of tic-tac-toe.  
- * The human & reining champion (Chase) is X and the computer (loser) is O. 
  */
 
 import java.util.InputMismatchException;
@@ -74,6 +70,7 @@ public class TicTacToe {
 		System.out.println("-----------");
 		System.out.println(gameBoard[6] + " | " + gameBoard[7] + " | " + gameBoard[8]);
 		System.out.println();
+		//Cross-Site Scripting (XSS): XSS is a vulnerability where an attacker can inject malicious code (usually JavaScript) into a web page, potentially allowing them to steal sensitive data or perform actions on behalf of the user. This vulnerability can be mitigated by sanitizing user input and encoding output to prevent the execution of malicious scripts.
 		System.out.println("<h1>Welcome " + username + "</h1>");
 	}
 	
