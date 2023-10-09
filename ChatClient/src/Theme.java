@@ -6,11 +6,6 @@ import javax.swing.JOptionPane;
 import javax.swing.LookAndFeel;
 import javax.swing.plaf.synth.SynthLookAndFeel;
 
-/**
- *
- * @author Rajnish
- * @version 1.0
- */
 public class Theme
 {
     public final static int PLATFORM = 0;
