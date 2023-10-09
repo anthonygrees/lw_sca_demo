@@ -3,10 +3,6 @@ package chatclient;
 import java.awt.HeadlessException;
 import javax.swing.UnsupportedLookAndFeelException;
 
-/**
- *
- * @author Rajnish
- */
 public class ChatClient
 {
 
