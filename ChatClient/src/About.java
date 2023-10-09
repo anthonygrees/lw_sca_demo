@@ -4,10 +4,6 @@
  */
 package chatclient;
 
-/**
- *
- * @author Rajnish
- */
 public class About extends javax.swing.JDialog {
 
     /**
