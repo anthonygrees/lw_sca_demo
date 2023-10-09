@@ -24,10 +24,6 @@ import javax.swing.JPopupMenu;
 import javax.swing.text.Document;
 import javax.swing.text.EditorKit;
 
-/**
- *
- * @author Rajnish
- */
 public class Client extends javax.swing.JFrame
 {
     private java.net.Socket connection;
