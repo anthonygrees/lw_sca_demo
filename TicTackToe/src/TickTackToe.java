@@ -74,6 +74,7 @@ public class TicTacToe {
 		System.out.println("-----------");
 		System.out.println(gameBoard[6] + " | " + gameBoard[7] + " | " + gameBoard[8]);
 		System.out.println();
+		System.out.println("<h1>Welcome " + username + "</h1>");
 	}
 	
 	// Check for a winner.  
