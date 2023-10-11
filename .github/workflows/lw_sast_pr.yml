@@ -23,7 +23,7 @@ env:
   LW_API_KEY: ${{ secrets.LW_API_KEY_CAT }}
   LW_API_SECRET: ${{ secrets.LW_API_SECRET_CAT }}
 
-name: Lacework Code Analysis (PR)
+name: Lacework SAST (PR)
 jobs:
   run-analysis:
     runs-on: ubuntu-20.04
